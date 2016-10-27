@@ -5,7 +5,7 @@ using Xunit;
 
 namespace InvoicesExmaple
 {
-    public class Class1
+    public class InvoicesExample
     {
 
         [Fact]
@@ -48,58 +48,4 @@ namespace InvoicesExmaple
             result2.Should().Be(Guid.Parse("5CBE16A2-0494-4F1D-B127-02929D5E59CB"));
         }
     }
-
-    public interface IPersistency
-    {
-        Guid Save(InvoiceModel invoice);
-    }
-
-    public class InvoiceController
-    {
-        private readonly IPersistency _persistency;
-
-        public InvoiceController(IPersistency persistency)
-        {
-            _persistency = persistency;
-        }
-
-        public Guid Post(InvoiceModel invoice)
-        {
-            // todo obliczyć sumy (logika biznesowa)
-            //
-            // todo zapisać do bazy
-            //
-            // i zwrócić identyfikator z bazy
-            //
-            // czyli klasyczne kwadrat -> kwadrat -> beczka
-
-            return _persistency.Save(invoice);
-        }
-    }
-
-    public class InvoiceModel
-    {
-        public string Head { get; set; }
-        public Position[] Positions { get; set; }
-    }
-
-    public class Position
-    {
-        public string Item { get; set; }
-        public double Price { get; set; }
-        public int Count { get; set; }
-        public double Vat { get; set; }
-
-        public Position(string item, double price, int count, double vat)
-        {
-            Item = item;
-            Price = price;
-            Count = count;
-            Vat = vat;
-        }
-    }
-
-
-
-
 }

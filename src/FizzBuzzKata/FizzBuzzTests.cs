@@ -3,13 +3,11 @@ using Xunit;
 
 namespace FizzBuzzKata
 {
-    public class Class1
+    public class FizzBuzzTests
     {
         private readonly FizzBuzzGame _sut;
 
-        // arrange
-
-        public Class1()
+        public FizzBuzzTests()
         {
             _sut = new FizzBuzzGame();
         }
@@ -40,18 +38,6 @@ namespace FizzBuzzKata
         {
             var result = _sut.Play(15);
             result.Should().Be("Fizz Buzz");
-        }
-    }
-
-    public class FizzBuzzGame
-    {
-        public string Play(int i)
-        {
-            if (i % 15 == 0) return "Fizz Buzz";
-            if (i % 3 == 0) return "Fizz";
-            if (i % 5 == 0) return "Buzz";
-
-            return i.ToString();
         }
     }
 }

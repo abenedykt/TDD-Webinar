@@ -3,11 +3,11 @@ using Xunit;
 
 namespace XUnit_Example
 {
-    public class Class1 : IDisposable
+    public class ExamplesInXUnit : IDisposable
     {
-        public Class1()
+        public ExamplesInXUnit()
         {
-            
+            // odpowiednik   [TestInitialize]
         }
 
         [Fact]
@@ -19,7 +19,7 @@ namespace XUnit_Example
 
         public void Dispose()
         {
-           
+            // odpowiednik   [TestCleanup]
         }
     }
 }

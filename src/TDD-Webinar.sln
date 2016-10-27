@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowItWorks", "HowItWorks\HowItWorks.csproj", "{5F00650D-10E1-4D3B-B709-7BD95BF7841C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. HowItWorks", "HowItWorks\1. HowItWorks.csproj", "{5F00650D-10E1-4D3B-B709-7BD95BF7841C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzKata", "FizzBuzzKata\FizzBuzzKata.csproj", "{9E5891AE-3462-4BE7-8659-F8833B30B33F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. FizzBuzzKata", "FizzBuzzKata\4. FizzBuzzKata.csproj", "{9E5891AE-3462-4BE7-8659-F8833B30B33F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicesExmaple", "InvoicesExmaple\InvoicesExmaple.csproj", "{EAD9E874-0F49-4CD8-ACB9-2F43E152F1BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. InvoicesExmaple", "InvoicesExmaple\5. InvoicesExmaple.csproj", "{EAD9E874-0F49-4CD8-ACB9-2F43E152F1BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest", "MSTest\MSTest\MSTest.csproj", "{4897AA8C-CED9-4900-8430-DA9BA15F5D06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. MSTest", "MSTest\MSTest\2. MSTest.csproj", "{4897AA8C-CED9-4900-8430-DA9BA15F5D06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnit_Example", "MSTest\XUnit_Example\XUnit_Example.csproj", "{BF66D381-5AC8-4DA1-8ADB-380838AE8D90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. XUnit_Example", "MSTest\XUnit_Example\3. XUnit_Example.csproj", "{BF66D381-5AC8-4DA1-8ADB-380838AE8D90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
